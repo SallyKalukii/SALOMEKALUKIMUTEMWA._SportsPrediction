@@ -2,7 +2,7 @@ import streamlit as st
 import joblib
 import pandas as pd 
 
-model_path = 'C:/Users/salome.mutemwa/Desktop/SALOMEKALUKIMUTEMWA._SportsPrediction/trained_model.pkl'
+model_path = 'trained_model.pkl'
 
 
 loaded_model = joblib.load(model_path)
